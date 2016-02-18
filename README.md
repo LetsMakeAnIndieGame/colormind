@@ -15,3 +15,5 @@ Currently, the project is still in development and needs your help.  There is wo
 - And more
 
 Please feel free to use this code on your website, so long as you don't sell the code.  Otherwise, you're always welcome to contribute work towards the project.  
+
+See this video for more information:  https://youtu.be/JNaIzQo-oY0
