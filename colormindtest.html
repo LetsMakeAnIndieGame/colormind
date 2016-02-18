@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<!-- <script src="scripts/require.js" data-main="scripts/main.js"></script> -->
+		<script src="scripts/jquery-2.2.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="scripts/jquery-ui-1.11.4/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="scripts/jquery-ui-1.11.4/jquery-ui.theme.css" />
+		<script src="scripts/jquery-ui-1.11.4/jquery-ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="scripts/colormindCss.css" />
+		<script src="scripts/colormind.js"></script>
+
+		<style>
+			td {
+				width: 20px;
+				height: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="colorblindtest01.jpg"/><br />
+		<img src="colorblindtest02.jpg"/><br />
+		<img src="colorblindtest03.jpg"/><br />
+		<img src="colorblindtest04.jpg"/><br />
+		<table>
+			<tr>
+				<td style="background-color:red;"></td>
+				<td style="background-color:green;"></td>
+				<td style="background-color:blue;"></td>
+			</tr>
+		</table>
+
+		<script>
+			var colorMind = ColorMind.getInstance();
+
+			var colorMindOptions = {
+				target: $(document.body),
+				"left": false
+			}
+			colorMind.initialize(colorMindOptions);
+		</script>
+	</body>
+</html>

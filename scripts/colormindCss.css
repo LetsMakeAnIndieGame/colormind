@@ -1,0 +1,29 @@
+#colormind-button {
+        position: fixed;
+        top: auto;
+        left: 0px;
+        bottom: 0px;
+        right: auto;
+
+        background-color: #757575;
+        color: #FFFFFF;
+
+        border: 0px;
+        padding: 10px;
+
+        font-weight: bold;
+}
+
+#colormind-button:hover {
+        background-color: #555555;
+}
+
+#colormind-trigger {
+
+}
+
+div.ui-dialog {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+}
